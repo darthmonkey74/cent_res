@@ -1,0 +1,149 @@
+/*
+Theme Name:     Central Reservations
+Theme URI:      http://www.central-reservations.co.za/wp-content/themes/u-design-child
+Description:    Child theme for U-Design
+Author:         Gareth  Healey
+Author URI:     http://the-techguys.com
+Template:       u-design                             
+Version:        0.1.0
+*/
+/*
+Brown: #634305
+Light orange: #fc9402;
+Dark orange: #F95700;
+Page title grey: #333333;
+dark gray: #212121;
+*/
+
+@import url("../u-design/style.css");
+
+
+.roundedimage {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 199px;
+    height: 199px;
+	border: 10px solid #fff;
+}
+
+#content-block-background-1228 {
+    margin: 0 -10000px;
+    padding: 0 10000px;
+}
+#content-block-background-1228 {
+    background-attachment: scroll;
+    background-color: #fff;
+    background-image: url("images/promo_rounded_bg.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
+
+.edit-link {
+	display: none;
+}
+
+.home h1 {
+	color: #212121;
+}
+
+
+.wpcf7-form {
+	background-color: #634305;
+	box-sizing: border-box;
+	padding: 20px;
+	color: #f7ecd8;
+	text-align: center;
+}
+
+	.wpcf7-form p {
+		text-align: center;
+	}
+    .wpcf7-form h4 {
+		 text-align: centre;
+	 }
+
+    .wpcf7-form  .wpcf7-text,
+	.wpcf7-form  .wpcf7-textarea {
+		width: 93%;
+		padding: 5px;
+	}
+	
+	.wpcf7-form  .wpcf7-textarea {
+		width: 91%;
+	}
+	
+	
+	.wpcf7-submit,
+	form#contactForm input.submit {
+		background-color: #fd7800;
+		border: 1px solid #eb6f00;
+		color: #ffffff;
+		font-size: 13px;
+		padding: 10px 20px;
+		
+	}
+	
+	.wpcf7-submit:hover {
+	    cursor: pointer;	
+	}
+	
+	.wpcf7-form h4 {
+	    text-align: center;	
+	}
+	
+	#content-block-body-1546 .one_third h3 a,
+	.page-id-4668 .one_half h3 {
+		color: #634305;
+		text-align: center;
+	}
+	
+	.page-id-4668 .one_half h3 {
+		
+	}
+	
+	.flat-custom-button {
+		color: #634305;
+	}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 980px) {
+	
+	
+	.wpcf7-form  .wpcf7-textarea {
+		height: 150px!important;
+	}
+    
+	#logo {
+		position: relative;
+		top: 30px;
+		left: -30px;
+		
+	}
+	
+	#bottom-bg {
+	    margin-top: -30px;	
+	}
+	
+	#content-block-body-1546 .one_third h3 {
+		margin-top: 0;	
+	}
+	
+
+	
+	#content-block-body-1546 .one_third .flat-custom-button {
+		margin-bottom: 30px;
+		background-color: 
+	}
+	
+	.last_column {
+		float: right;
+	}
+	.page #page-content {
+		margin-bottom: 30px;
+	}
+}
